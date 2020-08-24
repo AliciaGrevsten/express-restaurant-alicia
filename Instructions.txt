@@ -1,0 +1,17 @@
+Build an express server that displays some restaurant data.
+
+Name
+Location
+Description
+An image (stored on the server - no linking!)
+Average rating (1-5 stars)
+Optional: A list of reviews
+The server must have the following endpoints:
+
+'/' -> index.html (links to other endpoints, and has your name listed)
+
+'/data' -> data.json file, sent as json 
+
+'/restaurants' -> restaurant.html this page must use css and js 
+(from /static) to fetch the /data file and programmatically display 
+the restaurant information.

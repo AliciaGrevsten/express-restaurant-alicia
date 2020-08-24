@@ -1,0 +1,29 @@
+{
+"name": "Burger Love",
+"location": "Stortorget 6, 702 11 Örebro",
+"description": "Food made from scratch. Everything that is served is made with love, fresh produce and is of the highest quality! Every burgers is made of freshly grounded chuck and with brioche bread.",
+"image" : "/images/burgerlove-logo.png",
+"avgRating" : "4/5",
+"reviews" : [
+    {
+        "user" : "Karen2020",
+        "rating" : "1/5",
+        "review" : "The food was aful, the customer service was awful, and the managerwas rude! Don't go here!!"
+    },
+    {
+        "user" : "Aquelin",
+        "rating" : "5/5",
+        "review" : "The burgers tastes amazing but what I love the most is the fries. They serve the crunchies fries that I've ever tasted and it's heavenly good."
+    },
+    {
+        "user" : "Gösta64",
+        "rating" : "3/5",
+        "review" : "The burgers remind me of my childhood. The beer helps me forget.."
+    },
+    {
+        "user" : "BurgerLover",
+        "rating" : "5/5",
+        "review" : "I've tasted so many burgers in my life. This is one of the best.. Second place after 'Fridays' in Stockholm. But still 10/10, would go again!"
+    }
+]
+} 

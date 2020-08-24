@@ -1,0 +1,94 @@
+body {
+    background:  #333;
+    color: #e7e4e4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2% 5%;
+    border-style: double;
+    border-color: #333 #660000 #333 #660000;
+    border-width:5px;
+}
+
+.col {
+    float: left;
+    width: 45%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    text-align: center;
+}
+
+#first {
+    padding-left: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-variant: small-caps;
+    text-shadow: 2px 5px 5px rgb(29, 29, 29);
+}
+
+h4 {
+    font-style: italic;
+}
+
+button {
+    background-color: #790101b7;
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  }
+  
+button:hover {
+    background-color: rgb(43, 43, 43);
+    color: white;
+  }
+
+#resImage {
+    max-height: 200px;
+}
+
+#resImage:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+#reviews {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#reviews td, #reviews th {
+    padding: 8px
+}
+
+#reviews tr:hover { background-color: rgb(43, 43, 43);}
+
+#reviews th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #790101b7;
+  }
